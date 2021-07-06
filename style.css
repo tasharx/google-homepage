@@ -1,0 +1,46 @@
+#google-logo{
+    display: flex;
+    margin: auto;
+}
+
+#search-bar{
+    display: flex;
+    margin: auto;
+}
+
+#nav-bar{
+    padding: 0;
+    padding-bottom: 22.5%;
+    margin: 0;
+    list-style-type: none;
+    width: 100%;
+}
+
+#footer{
+    padding-left: 10%;
+    margin: 0;
+    list-style-type: none;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    color: black;
+}
+.right-footer{
+    display: block;
+    float: right;
+}
+
+form{
+    padding-top: 5%;
+}
