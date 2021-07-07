@@ -117,6 +117,10 @@ form{
     padding-left: 14px;
 }
 
+#right-footer-app:hover{
+    text-decoration: none;
+}
+
 #search-icon{
     font-size: 20px;
     color: #909090;
