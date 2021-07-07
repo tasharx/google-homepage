@@ -12,14 +12,30 @@
     border-color: #e0e0e0;
     border-style: solid;
     border-width: 1px;
+    box-shadow: 0 0 5px white;
+}
+
+#search-bar:hover{
+    border-color: white;
+    box-shadow: 0 0 5px #DCDCDC;
 }
 
 button{ 
     background-color: #f8f8f8;
-    border: none;
+    border: solid;
+    border-color: #f8f8f8;
+    border-width: 1px;
+    border-radius: 4px;
     padding: 8px 14px 8px 14px;
     font-size: 14px;
     margin: 0px 5px 0px 5px;
+}
+
+button:hover{
+    border: solid;
+    border-color: #e0e0e0;
+    border-width: 1px;
+    box-shadow: 0 1px 1px #e0e0e0;
 }
 
 #button-format{
@@ -101,12 +117,25 @@ form{
     font-size: 20px;
     color: #909090;
     position: absolute;
-    top: 310px;
+    top: 308px;
 }
 
 .search-container{
     display: flex;
     justify-content: center;
     padding-right: 520px;
+}
+
+#mic-icon{
+    font-size: 20px;
+    color: #909090;
+    position: absolute;
+    top: 308px;
+}
+
+.mic-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 520px;
 }
 
