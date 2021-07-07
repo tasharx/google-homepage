@@ -6,7 +6,7 @@
 #search-bar{
     display: flex;
     margin: auto;
-    width: 78.5%;
+    width: 570px;
     padding: 14px 5px 14px 5px;
     border-radius: 25px;
     border-color: #e0e0e0;
@@ -19,19 +19,19 @@ button{
     border: none;
     padding: 8px 14px 8px 14px;
     font-size: 14px;
+    margin: 0px 5px 0px 5px;
 }
 
 #button-format{
-    padding-top: 4%;
-    padding-left: 32%;
+    padding-top: 30px;
     display: flex;
-    justify-content: space-between;
-    width: 38%;
+    justify-content: center;
+    width: 100%;
 }
 
 #nav-bar{
     padding-left: 1%;
-    padding-bottom: 22.5%;
+    padding-bottom: 165px;
     margin: 0;
     list-style-type: none;
     width: 98%;
@@ -83,7 +83,30 @@ li a{
 }
 
 form{
-    padding-top: 3.5%;
+    padding-top: 30px;
 }
 
+.material-icons-outlined{
+    font-family: 'Material Icons';
+    font-size: 24px;
+    color: #808080;
+}
+
+#right-footer-app{
+    padding-top: 10px;
+    padding-left: 14px;
+}
+
+#search-icon{
+    font-size: 20px;
+    color: #909090;
+    position: absolute;
+    top: 310px;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    padding-right: 520px;
+}
 
