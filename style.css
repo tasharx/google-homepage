@@ -50,7 +50,7 @@ button:hover{
     padding-bottom: 165px;
     margin: 0;
     list-style-type: none;
-    width: 98%;
+    width: 99%;
 }
 
 #footer{
@@ -84,6 +84,10 @@ li a{
     padding: 14px 12px;
     text-decoration: none;
     color: black;
+}
+
+li a:hover{
+    text-decoration: underline;
 }
 
 .right-footer{
@@ -139,3 +143,12 @@ form{
     padding-left: 520px;
 }
 
+#github-profile{
+    width: 40px;
+    height: 40px;
+}
+
+#right-footer-img{
+    padding-top: 2px;
+    padding-left: 3px;
+}
